@@ -2,9 +2,12 @@
 Clear-Host
 #endregion
 
-#region Ausführungspfad für Bild/Logo und ICON, muss im RootPfad vom Script liegen
-$script:Scriptpath = Split-Path $script:MyInvocation.MyCommand.Path
-$script:Recipients_Info_Array = New-Object System.Collections.ArrayList
+#region _Blank
+
+#endregion
+
+#region AusführungsPfad ermitteln
+$Scriptpath = Split-Path $script:MyInvocation.MyCommand.Path
 #endregion
 
 #region Start Variablen
@@ -41,6 +44,9 @@ if ($UserIsAdmin -eq $false)
     }
     Break Script
 }
+#endregion
+
+#region IniDatei einlesen
 
 #endregion
 
@@ -53,6 +59,20 @@ Write-Host "#                 $SystemCopyright                #"          -Foreg
 Write-Host "#                 $SystemDate $SystemTime               #"    -ForegroundColor Green
 Write-Host "#                                                          #" -ForegroundColor Green
 Write-Host "############################################################" -ForegroundColor Green
+Write-Host " "
 #endregion
 
+#region _Blank
+#$ComputerInfo = Get-ComputerInfo
+Write-Host "Folgendes System wurde erkannt:"
+Write-Host " "
 
+Write-Host "Betriebssystem Architektur:......... " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.OsArchitecture -ForegroundColor Green
+
+Write-Host "Betriebtssystemn:................... " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.WindowsProductName -ForegroundColor Green
+
+Write-Host " "
+
+#endregion
