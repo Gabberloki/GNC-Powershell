@@ -13,7 +13,7 @@ $SystemAuthor = "Rainer Gärtner"
 $SystemCopyright = "(c)2021 by Gabberloki GNC"
 $SystemDate =  Get-Date -Format "dddd dd.MM.yyyy" 
 $SystemTime =  Get-Date -Format "HH:mm:ss"
-[int]$TimeToWait = "20"
+[int]$TimeToWait = "5"
 #endregion
 
 #region Prüfen auf Admin Rechte
