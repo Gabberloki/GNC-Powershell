@@ -1,0 +1,662 @@
+﻿**********************
+nStart der Windows PowerShell-Aufzeichnung
+Startzeit: 20210420014545
+Benutzername: GNC-W10-W01\gabbe
+RunAs-Benutzer: GNC-W10-W01\gabbe
+Konfigurationsname: 
+Computer: GNC-W10-W01 (Microsoft Windows NT 10.0.19042.0)
+Hostanwendung: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Prozess-ID: 4040
+PSVersion: 5.1.19041.906
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.906
+BuildVersion: 10.0.19041.906
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Die Aufzeichnung wurde gestartet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_45.log".
+Die Variable "$dtmToday" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:52 Zeichen:22
++ Write-Host "`nStarte $dtmToday - Script $ScriptName $ScriptVersion`n"
++                      ~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (dtmToday:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+Die Variable "$dtmToday" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:52 Zeichen:22
++ Write-Host "`nStarte $dtmToday - Script $ScriptName $ScriptVersion`n"
++                      ~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (dtmToday:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+====================================================================
+=                                                                  =
+=                         CTN-Treesize 3.0.1                       =
+=                    Copyrights by Rainer Gärtner                  =
+=                           (c) 2021 DLCIT                         =
+=                                                                  =
+====================================================================
+
+Auf welchem Profile-Server soll der Vorgang durchgeführt werden?:
+
+1:  \\Na0-FS-01\tsprofiles$
+2:  \\ah0-fs-02\tsprofiles$
+
+Die Variable "$profilePfadOrbi" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:73 Zeichen:59
++ ... t "Bitte den Profile Server auswah (default: $profilePfadOrbi):" -For ...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (profilePfadOrbi:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+Die Variable "$profilePfadOrbi" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:73 Zeichen:59
++ ... t "Bitte den Profile Server auswah (default: $profilePfadOrbi):" -For ...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (profilePfadOrbi:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(): "Die Pipeline wurde beendet."
+PS C:\Users\gabbe\Documents\WindowsPowerShell\Modules/>
+
+PS>Get-Variable
+
+Name                           Value
+----                           -----
+$                              $ComputerInfo
+?                              False
+^                              $ComputerInfo
+args                           {}
+ComputerInfo                   Microsoft.PowerShell.Commands.ComputerInfo
+ConfirmPreference              High
+ConsoleFileName
+Count                          5
+CurrentlyExecutingCommand
+DebugPreference                Continue
+DebugPreferenceOld             SilentlyContinue
+Error                          {Die Variable "$profilePfadOrbi" kann nicht a...
+ErrorActionPreference          Continue
+ErrorView                      NormalView
+ExecutionContext               System.Management.Automation.EngineIntrinsics
+false                          False
+FileDatum                      _20.04.2021_01_45
+foreach
+FormatEnumerationLimit         4
+HOME                           C:\Users\gabbe
+Host                           System.Management.Automation.Internal.Host.In...
+InformationPreference          SilentlyContinue
+inifile                        {; Kommentar eine Beispiel INI-Datei, , <inif...
+inisection                     Bereich2
+input                          System.Collections.ArrayList+ArrayListEnumera...
+inputfile                      C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+item                           Microsoft.PowerShell.Commands.NetworkAdapter
+key                            Key2
+line                           </inifile>
+LogFile                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+LogPath                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+MaximumAliasCount              4096
+MaximumDriveCount              4096
+MaximumErrorCount              256
+MaximumFunctionCount           4096
+MaximumHistoryCount            4096
+MaximumVariableCount           4096
+MinPathGröße                   50
+MyInvocation                   System.Management.Automation.InvocationInfo
+NestedPromptLevel              0
+null
+OutputEncoding                 System.Text.SBCSCodePageEncoding
+PID                            4040
+profile                        C:\Users\gabbe\Documents\WindowsPowerShell\Mi...
+profilePfadCTN                 \\Na0-FS-01\tsprofiles$
+profilePfadHome                \\localhost\c$\Temp
+profilePfadOrbis               \\ah0-fs-02\tsprofiles$
+ProgressPreference             Continue
+PSBoundParameters              {}
+PSCommandPath
+PSCulture                      de-DE
+PSDefaultParameterValues       {}
+PSEdition                      Desktop
+PSEmailServer
+PSHOME                         C:\Windows\System32\WindowsPowerShell\v1.0
+psISE                          Microsoft.PowerShell.Host.ISE.ObjectModelRoot
+PSModulPath                    {C:\Users\gabbe\Documents\WindowsPowerShell\M...
+PSScriptRoot
+PSSessionApplicationName       wsman
+PSSessionConfigurationName     http://schemas.microsoft.com/powershell/Micro...
+PSSessionOption                System.Management.Automation.Remoting.PSSessi...
+PSUICulture                    de-DE
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(format-default): "Ein Aufrufziel hat einen Ausnahmefehler verursacht."
+Die Variable "$VerbosePreferencea" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:23 Zeichen:25
++ $VerbosePreferenceOld = $VerbosePreferencea
++                         ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (VerbosePreferencea:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+Die Variable "$VerbosePreferencea" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:23 Zeichen:25
++ $VerbosePreferenceOld = $VerbosePreferencea
++                         ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (VerbosePreferencea:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+Die Aufzeichnung wurde gestartet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_46.log".
+Die Variable "$dtmToday" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:52 Zeichen:22
++ Write-Host "`nStarte $dtmToday - Script $ScriptName $ScriptVersion`n"
++                      ~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (dtmToday:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+Die Variable "$dtmToday" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:52 Zeichen:22
++ Write-Host "`nStarte $dtmToday - Script $ScriptName $ScriptVersion`n"
++                      ~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (dtmToday:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+====================================================================
+=                                                                  =
+=                         CTN-Treesize 3.0.1                       =
+=                    Copyrights by Rainer Gärtner                  =
+=                           (c) 2021 DLCIT                         =
+=                                                                  =
+====================================================================
+
+Auf welchem Profile-Server soll der Vorgang durchgeführt werden?:
+
+1:  \\Na0-FS-01\tsprofiles$
+2:  \\ah0-fs-02\tsprofiles$
+
+Bitte den Profile Server auswah (default: \\ah0-fs-02\tsprofiles$):
+PS>TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(): "Die Pipeline wurde beendet."
+PS C:\Users\gabbe\Documents\WindowsPowerShell\Modules/>
+
+PS>Get-Variable
+
+Name                           Value
+----                           -----
+$                              $ComputerInfo
+?                              False
+^                              $ComputerInfo
+args                           {}
+ComputerInfo                   Microsoft.PowerShell.Commands.ComputerInfo
+ConfirmPreference              High
+ConsoleFileName
+Count                          5
+CurrentlyExecutingCommand
+DebugPreference                Continue
+DebugPreferenceOld             Continue
+Error                          {Die Variable "$dtmToday" kann nicht abgerufe...
+ErrorActionPreference          Continue
+ErrorView                      NormalView
+ExecutionContext               System.Management.Automation.EngineIntrinsics
+false                          False
+FileDatum                      _20.04.2021_01_46
+foreach
+FormatEnumerationLimit         4
+HOME                           C:\Users\gabbe
+Host                           System.Management.Automation.Internal.Host.In...
+InformationPreference          SilentlyContinue
+inifile                        {; Kommentar eine Beispiel INI-Datei, , <inif...
+inisection                     Bereich2
+input                          System.Collections.ArrayList+ArrayListEnumera...
+inputfile                      C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+item                           Microsoft.PowerShell.Commands.NetworkAdapter
+key                            Key2
+line                           </inifile>
+LogFile                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+LogPath                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+MaximumAliasCount              4096
+MaximumDriveCount              4096
+MaximumErrorCount              256
+MaximumFunctionCount           4096
+MaximumHistoryCount            4096
+MaximumVariableCount           4096
+MinPathGröße                   50
+MyInvocation                   System.Management.Automation.InvocationInfo
+NestedPromptLevel              0
+null
+OutputEncoding                 System.Text.SBCSCodePageEncoding
+PID                            4040
+profile                        C:\Users\gabbe\Documents\WindowsPowerShell\Mi...
+profilePfadCTN                 \\Na0-FS-01\tsprofiles$
+profilePfadHome                \\localhost\c$\Temp
+profilePfadOrbis               \\ah0-fs-02\tsprofiles$
+ProgressPreference             Continue
+PSBoundParameters              {}
+PSCommandPath
+PSCulture                      de-DE
+PSDefaultParameterValues       {}
+PSEdition                      Desktop
+PSEmailServer
+PSHOME                         C:\Windows\System32\WindowsPowerShell\v1.0
+psISE                          Microsoft.PowerShell.Host.ISE.ObjectModelRoot
+PSModulPath                    {C:\Users\gabbe\Documents\WindowsPowerShell\M...
+PSScriptRoot
+PSSessionApplicationName       wsman
+PSSessionConfigurationName     http://schemas.microsoft.com/powershell/Micro...
+PSSessionOption                System.Management.Automation.Remoting.PSSessi...
+PSUICulture                    de-DE
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(format-default): "Ein Aufrufziel hat einen Ausnahmefehler verursacht."
+Die Variable "$VerbosePreferencea" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:24 Zeichen:25
++ $VerbosePreferenceOld = $VerbosePreferencea
++                         ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (VerbosePreferencea:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+Die Variable "$VerbosePreferencea" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:24 Zeichen:25
++ $VerbosePreferenceOld = $VerbosePreferencea
++                         ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (VerbosePreferencea:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+Die Aufzeichnung wurde gestartet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_50.log".
+
+Starte 20.04.2021_01:50 - Script CTN-Treesize 3.0.1
+====================================================================
+=                                                                  =
+=                         CTN-Treesize 3.0.1                       =
+=                    Copyrights by Rainer Gärtner                  =
+=                           (c) 2021 DLCIT                         =
+=                                                                  =
+====================================================================
+
+Auf welchem Profile-Server soll der Vorgang durchgeführt werden?:
+
+1:  \\Na0-FS-01\tsprofiles$
+2:  \\ah0-fs-02\tsprofiles$
+
+Bitte den Profile Server auswah (default: \\ah0-fs-02\tsprofiles$):
+PS>TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(): "Die Pipeline wurde beendet."
+PS C:\Users\gabbe\Documents\WindowsPowerShell\Modules/>
+
+PS>Get-Variable
+
+Name                           Value
+----                           -----
+$                              $ComputerInfo
+?                              False
+^                              $ComputerInfo
+args                           {}
+ComputerInfo                   Microsoft.PowerShell.Commands.ComputerInfo
+ConfirmPreference              High
+ConsoleFileName
+Count                          5
+CurrentlyExecutingCommand
+DebugPreference                Continue
+DebugPreferenceOld             Continue
+dtmToday                       20.04.2021_01:50
+Error                          {Die Variable "$VerbosePreferencea" kann nich...
+ErrorActionPreference          Continue
+ErrorView                      NormalView
+ExecutionContext               System.Management.Automation.EngineIntrinsics
+false                          False
+FileDatum                      _20.04.2021_01_50
+foreach
+FormatEnumerationLimit         4
+HOME                           C:\Users\gabbe
+Host                           System.Management.Automation.Internal.Host.In...
+InformationPreference          SilentlyContinue
+inifile                        {; Kommentar eine Beispiel INI-Datei, , <inif...
+inisection                     Bereich2
+input                          System.Collections.ArrayList+ArrayListEnumera...
+inputfile                      C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+item                           Microsoft.PowerShell.Commands.NetworkAdapter
+key                            Key2
+line                           </inifile>
+LogFile                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+LogPath                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+MaximumAliasCount              4096
+MaximumDriveCount              4096
+MaximumErrorCount              256
+MaximumFunctionCount           4096
+MaximumHistoryCount            4096
+MaximumVariableCount           4096
+MinPathGröße                   50
+MyInvocation                   System.Management.Automation.InvocationInfo
+NestedPromptLevel              0
+null
+OutputEncoding                 System.Text.SBCSCodePageEncoding
+PID                            4040
+profile                        C:\Users\gabbe\Documents\WindowsPowerShell\Mi...
+profilePfadCTN                 \\Na0-FS-01\tsprofiles$
+profilePfadHome                \\localhost\c$\Temp
+profilePfadOrbis               \\ah0-fs-02\tsprofiles$
+ProgressPreference             Continue
+PSBoundParameters              {}
+PSCommandPath
+PSCulture                      de-DE
+PSDefaultParameterValues       {}
+PSEdition                      Desktop
+PSEmailServer
+PSHOME                         C:\Windows\System32\WindowsPowerShell\v1.0
+psISE                          Microsoft.PowerShell.Host.ISE.ObjectModelRoot
+PSModulPath                    {C:\Users\gabbe\Documents\WindowsPowerShell\M...
+PSScriptRoot
+PSSessionApplicationName       wsman
+PSSessionConfigurationName     http://schemas.microsoft.com/powershell/Micro...
+PSSessionOption                System.Management.Automation.Remoting.PSSessi...
+PSUICulture                    de-DE
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(format-default): "Ein Aufrufziel hat einen Ausnahmefehler verursacht."
+Die Aufzeichnung wurde gestartet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log".
+
+Starte 20.04.2021_01:51 - Script CTN-Treesize 3.0.1
+====================================================================
+=                                                                  =
+=                         CTN-Treesize 3.0.1                       =
+=                    Copyrights by Rainer Gärtner                  =
+=                           (c) 2021 DLCIT                         =
+=                                                                  =
+====================================================================
+
+Auf welchem Profile-Server soll der Vorgang durchgeführt werden?:
+
+1:  \\Na0-FS-01\tsprofiles$
+2:  \\ah0-fs-02\tsprofiles$
+
+Bitte den Profile Server auswah (default: \\ah0-fs-02\tsprofiles$):
+
+Server wurde auf \\localhost\c$\Temp gesetzt!
+
+#############################################################################################
+
+\\localhost\c$\Temp\log
+
+
+0,45  MB im Profil
+ in
+259
+ Dateien!
+\\localhost\c$\Temp\Austrittsliste September 2020 - DLC IT.csv
+
+
+0,04  MB im Profil
+ in
+1
+ Dateien!
+\\localhost\c$\Temp\Austrittsliste September 2020 - DLC IT.xlsx
+
+
+0,09  MB im Profil
+ in
+1
+ Dateien!
+\\localhost\c$\Temp\ein.txt
+
+
+0  MB im Profil
+ in
+1
+ Dateien!
+PS>TerminatingError(Out-File): "Der Prozess kann nicht auf die Datei "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von einem anderen Prozess verwendet wird."
+out-file : Der Prozess kann nicht auf die Datei 
+"C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von 
+einem anderen Prozess verwendet wird.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:138 Zeichen:1
++ out-file -FilePath $LogFile -InputObject $path -NoNewline
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : Der Prozess kann nicht auf die Datei "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von
+einem anderen Prozess verwendet wird.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:138 Zeichen:1
++ out-file -FilePath $LogFile -InputObject $path -NoNewline
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+>> TerminatingError(Out-File): "Der Prozess kann nicht auf die Datei "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von einem anderen Prozess verwendet wird."
+out-file : Der Prozess kann nicht auf die Datei 
+"C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von 
+einem anderen Prozess verwendet wird.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:139 Zeichen:1
++ out-file -FilePath $LogFile -InputObject " - " -NoNewline
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : Der Prozess kann nicht auf die Datei "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von
+einem anderen Prozess verwendet wird.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:139 Zeichen:1
++ out-file -FilePath $LogFile -InputObject " - " -NoNewline
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+Die Variable "$ProfileCheckUser" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:140 Zeichen:42
++ out-file -FilePath $LogFile -InputObject $ProfileCheckUser.Length -Ap ...
++                                          ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ProfileCheckUser:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+Die Variable "$ProfileCheckUser" kann nicht abgerufen werden, weil sie nicht festgelegt wurde.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:140 Zeichen:42
++ out-file -FilePath $LogFile -InputObject $ProfileCheckUser.Length -Ap ...
++                                          ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (ProfileCheckUser:String) [], RuntimeException
+    + FullyQualifiedErrorId : VariableIsUndefined
+
+>> TerminatingError(Out-File): "Der Prozess kann nicht auf die Datei "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von einem anderen Prozess verwendet wird."
+out-file : Der Prozess kann nicht auf die Datei 
+"C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von 
+einem anderen Prozess verwendet wird.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:141 Zeichen:1
++ out-file -FilePath $LogFile -InputObject " - " -NoNewline
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : Der Prozess kann nicht auf die Datei "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log" zugreifen, da sie von
+einem anderen Prozess verwendet wird.
+In C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\GNC-Treesize.ps1:141 Zeichen:1
++ out-file -FilePath $LogFile -InputObject " - " -NoNewline
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+
+Beende CTN-Treesize Dienstag, 20. April 2021 01:51:44
+Die Aufzeichnung wurde beendet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log".
+PS C:\Users\gabbe\Documents\WindowsPowerShell\Modules/>
+
+PS>Get-Variable
+
+Name                           Value
+----                           -----
+$                              $ComputerInfo
+?                              True
+^                              $ComputerInfo
+args                           {}
+ComputerInfo                   Microsoft.PowerShell.Commands.ComputerInfo
+ConfirmPreference              High
+ConsoleFileName
+Count                          0
+CurrentlyExecutingCommand
+DebugPreference                Continue
+DebugPreferenceOld             Continue
+dtmToday                       Dienstag, 20. April 2021 01:51:44
+Error                          {Der Prozess kann nicht auf die Datei "C:\Use...
+ErrorActionPreference          Continue
+ErrorView                      NormalView
+ExecutionContext               System.Management.Automation.EngineIntrinsics
+false                          False
+FileDatum                      _20.04.2021_01_51
+foreach
+FormatEnumerationLimit         4
+HOME                           C:\Users\gabbe
+Host                           System.Management.Automation.Internal.Host.In...
+InformationPreference          SilentlyContinue
+inifile                        {; Kommentar eine Beispiel INI-Datei, , <inif...
+inisection                     Bereich2
+input                          System.Collections.ArrayList+ArrayListEnumera...
+inputfile                      C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+item                           ein.txt
+key                            Key2
+line                           </inifile>
+LogFile                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+LogPath                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+MaximumAliasCount              4096
+MaximumDriveCount              4096
+MaximumErrorCount              256
+MaximumFunctionCount           4096
+MaximumHistoryCount            4096
+MaximumVariableCount           4096
+MinPathGröße                   50
+MyInvocation                   System.Management.Automation.InvocationInfo
+NestedPromptLevel              0
+null
+OutputEncoding                 System.Text.SBCSCodePageEncoding
+path                           \\localhost\c$\Temp\ein.txt
+PID                            4040
+profile                        {log, Austrittsliste September 2020 - DLC IT....
+ProfilePfad                    \\localhost\c$\Temp
+profilePfadCTN                 \\Na0-FS-01\tsprofiles$
+profilePfadHome                \\localhost\c$\Temp
+profilePfadOrbis               \\ah0-fs-02\tsprofiles$
+ProgressPreference             Continue
+PSBoundParameters              {}
+PSCommandPath
+PSCulture                      de-DE
+PSDefaultParameterValues       {}
+PSEdition                      Desktop
+PSEmailServer
+PSHOME                         C:\Windows\System32\WindowsPowerShell\v1.0
+psISE                          Microsoft.PowerShell.Host.ISE.ObjectModelRoot
+PSModulPath                    {C:\Users\gabbe\Documents\WindowsPowerShell\M...
+PSScriptRoot
+PSSessionApplicationName       wsman
+PSSessionConfigurationName     http://schemas.microsoft.com/powershell/Micro...
+PSSessionOption                System.Management.Automation.Remoting.PSSessi...
+PSUICulture                    de-DE
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(format-default): "Ein Aufrufziel hat einen Ausnahmefehler verursacht."
+>> Get-Variable
+
+Name                           Value
+----                           -----
+$                              $ComputerInfo
+?                              True
+^                              $ComputerInfo
+args                           {}
+ComputerInfo                   Microsoft.PowerShell.Commands.ComputerInfo
+ConfirmPreference              High
+ConsoleFileName
+Count                          0
+CurrentlyExecutingCommand
+DebugPreference                Continue
+DebugPreferenceOld             Continue
+dtmToday                       Dienstag, 20. April 2021 01:51:44
+Error                          {System.Management.Automation.CmdletInvocatio...
+ErrorActionPreference          Continue
+ErrorView                      NormalView
+ExecutionContext               System.Management.Automation.EngineIntrinsics
+false                          False
+FileDatum                      _20.04.2021_01_51
+foreach
+FormatEnumerationLimit         4
+HOME                           C:\Users\gabbe
+Host                           System.Management.Automation.Internal.Host.In...
+InformationPreference          SilentlyContinue
+inifile                        {; Kommentar eine Beispiel INI-Datei, , <inif...
+inisection                     Bereich2
+input                          System.Collections.ArrayList+ArrayListEnumera...
+inputfile                      C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+item                           ein.txt
+key                            Key2
+line                           </inifile>
+LogFile                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+LogPath                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+MaximumAliasCount              4096
+MaximumDriveCount              4096
+MaximumErrorCount              256
+MaximumFunctionCount           4096
+MaximumHistoryCount            4096
+MaximumVariableCount           4096
+MinPathGröße                   50
+MyInvocation                   System.Management.Automation.InvocationInfo
+NestedPromptLevel              0
+null
+OutputEncoding                 System.Text.SBCSCodePageEncoding
+path                           \\localhost\c$\Temp\ein.txt
+PID                            4040
+profile                        {log, Austrittsliste September 2020 - DLC IT....
+ProfilePfad                    \\localhost\c$\Temp
+profilePfadCTN                 \\Na0-FS-01\tsprofiles$
+profilePfadHome                \\localhost\c$\Temp
+profilePfadOrbis               \\ah0-fs-02\tsprofiles$
+ProgressPreference             Continue
+PSBoundParameters              {}
+PSCommandPath
+PSCulture                      de-DE
+PSDefaultParameterValues       {}
+PSEdition                      Desktop
+PSEmailServer
+PSHOME                         C:\Windows\System32\WindowsPowerShell\v1.0
+psISE                          Microsoft.PowerShell.Host.ISE.ObjectModelRoot
+PSModulPath                    {C:\Users\gabbe\Documents\WindowsPowerShell\M...
+PSScriptRoot
+PSSessionApplicationName       wsman
+PSSessionConfigurationName     http://schemas.microsoft.com/powershell/Micro...
+PSSessionOption                System.Management.Automation.Remoting.PSSessi...
+PSUICulture                    de-DE
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(format-default): "Ein Aufrufziel hat einen Ausnahmefehler verursacht."
+Die Aufzeichnung wurde gestartet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log".
+
+Starte 20.04.2021_01:51 - Script CTN-Treesize 3.0.1
+====================================================================
+=                                                                  =
+=                         CTN-Treesize 3.0.1                       =
+=                    Copyrights by Rainer Gärtner                  =
+=                           (c) 2021 DLCIT                         =
+=                                                                  =
+====================================================================
+
+Auf welchem Profile-Server soll der Vorgang durchgeführt werden?:
+
+1:  \\Na0-FS-01\tsprofiles$
+2:  \\ah0-fs-02\tsprofiles$
+
+Bitte den Profile Server auswah (default: \\ah0-fs-02\tsprofiles$):
+
+Server wurde auf \\localhost\c$\Temp gesetzt!
+
+#############################################################################################
+
+\\localhost\c$\Temp\log
+
+
+0,45  MB im Profil
+ in
+259
+ Dateien!
+\\localhost\c$\Temp\Austrittsliste September 2020 - DLC IT.csv
+
+
+0,04  MB im Profil
+ in
+1
+ Dateien!
+\\localhost\c$\Temp\Austrittsliste September 2020 - DLC IT.xlsx
+
+
+0,09  MB im Profil
+ in
+1
+ Dateien!
+\\localhost\c$\Temp\ein.txt
+
+
+0  MB im Profil
+ in
+1
+ Dateien!
+
+Beende CTN-Treesize Dienstag, 20. April 2021 01:51:58
+Die Aufzeichnung wurde beendet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_01_51.log".
+PS C:\Users\gabbe\Documents\WindowsPowerShell\Modules/>
+

@@ -69,7 +69,7 @@ Write-Host "Folgendes System wurde erkannt:"
 Write-Host " "
 
 Write-Host "Hostanme:.......................... " -ForegroundColor Cyan -NoNewline
-Write-Host $ComputerInfo.CsDNSHostName -ForegroundColor Green
+Write-Host $env:COMPUTERNAME -ForegroundColor Green
 
 Write-Host "Registrierter Benutzer:............ " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.OsRegisteredUser -ForegroundColor Green
@@ -92,6 +92,15 @@ Write-Host $ComputerInfo.WindowsInstallDateFromRegistry -ForegroundColor Green
 Write-Host "Type der Machine:.................. " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.WindowsInstallationType -ForegroundColor Green
 
+Write-Host "Hersteller:........................ " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.CsManufacturer -ForegroundColor Green
+
+Write-Host "Modell:............................ " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.CsModel -ForegroundColor Green
+
+Write-Host "Systemname:........................ " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.CsSystemFamily -ForegroundColor Green
+
 Write-Host "Bios Version:...................... " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.BiosSMBIOSBIOSVersion -ForegroundColor Green
 
@@ -100,6 +109,9 @@ Write-Host $ComputerInfo.BiosReleaseDate -ForegroundColor Green
 
 Write-Host "Bios Build:........................ " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.BiosFirmwareType -ForegroundColor Green
+
+Write-Host "Bios Status:....................... " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.BiosStatus -ForegroundColor Green
 
 Write-Host "Boot Status:....................... " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.CsBootupState -ForegroundColor Green
@@ -116,6 +128,9 @@ Write-Host $ComputerInfo.CsProcessors.SocketDesignation -ForegroundColor Green
 Write-Host "CPU Speed:......................... " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.CsProcessors.MaxClockSpeed  MHz"" -ForegroundColor Green
 
+Write-Host "CPU HyperThreads:.................. " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.CsNumberOfLogicalProcessors -ForegroundColor Green
+
 Write-Host "CPU Eco:........................... " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.CsProcessors.Availability -ForegroundColor Green
 
@@ -130,6 +145,9 @@ Write-Host $ComputerInfo.OsUptime -ForegroundColor Green
 
 Write-Host "Boot Datum:........................ " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.OsLastBootUpTime -ForegroundColor Green
+
+Write-Host "Thermal Status:.................... " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.CsThermalState -ForegroundColor Green
 
 Write-Host "System Role:....................... " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.CsDomainRole -ForegroundColor Green
@@ -152,6 +170,24 @@ Write-Host $ComputerInfo.OsSystemDrive -ForegroundColor Green
 Write-Host "Windows Ordner:.................... " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.OsWindowsDirectory -ForegroundColor Green
 
+Write-Host "Vorhandene UserProfile:............ " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.OsNumberOfUsers -ForegroundColor Green
+
+Write-Host "Anzahl der laufenden Prozesse:..... " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.OsNumberOfProcesses -ForegroundColor Green
+
+Write-Host "Verschlüsselungslevel:............. " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.OsEncryptionLevel -ForegroundColor Green
+
+Write-Host "Fordergrund Application Boost:..... " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.OsForegroundApplicationBoost -ForegroundColor Green
+
+Write-Host "Zeitzone:.......................... " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.TimeZone -ForegroundColor Green
+
+Write-Host "Logon Server:...................... " -ForegroundColor Cyan -NoNewline
+Write-Host $ComputerInfo.LogonServer -ForegroundColor Green
+
 Write-Host ""
 Write-Host "##########################################################################################################################" -ForegroundColor DarkYellow
 Write-Host ""
@@ -159,17 +195,17 @@ Write-Host ""
 foreach ($item in $ComputerInfo.CsNetworkAdapters)
 {
     $Count++
-    Write-Host "Netzwerk Karte " $Count ": "
-    Write-Host "Netzwerkkarten ID: " -ForegroundColor Green -NoNewline
-    Write-Host $item.ConnectionID 
-    Write-Host "Beschreibung " -ForegroundColor Green -NoNewline
-    Write-Host $item.Description
-    Write-Host "DHCP eingeschaltet? " -ForegroundColor Green -NoNewline
-    Write-Host $item.DHCPEnabled
-    Write-Host "Verbindungs Status " -ForegroundColor Green -NoNewline
-    Write-Host $item.ConnectionStatus
-    Write-Host "IP Adressen " -ForegroundColor Green -NoNewline
-    Write-Host $item.IPAddresses 
+    Write-Host "Netzwerk Karte " $Count ": " -ForegroundColor Yellow
+    Write-Host "Netzwerkkarten ID: " -ForegroundColor Cyan -NoNewline
+    Write-Host $item.ConnectionID -ForegroundColor Green
+    Write-Host "Beschreibung " -ForegroundColor Cyan -NoNewline
+    Write-Host $item.Description -ForegroundColor Green
+    Write-Host "DHCP eingeschaltet? " -ForegroundColor Cyan -NoNewline
+    Write-Host $item.DHCPEnabled -ForegroundColor Green
+    Write-Host "Verbindungs Status " -ForegroundColor Cyan -NoNewline
+    Write-Host $item.ConnectionStatus -ForegroundColor Green
+    Write-Host "IP Adressen " -ForegroundColor Cyan -NoNewline
+    Write-Host $item.IPAddresses -ForegroundColor Green
     Write-Host ""
 }
 #endregion
