@@ -63,7 +63,7 @@ Write-Host " "
 #endregion
 
 #region _Blank
-#$ComputerInfo = Get-ComputerInfo
+$ComputerInfo = Get-ComputerInfo
 Write-Host "Folgendes System wurde erkannt:"
 Write-Host " "
 
