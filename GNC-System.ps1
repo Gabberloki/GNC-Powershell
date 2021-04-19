@@ -12,7 +12,8 @@ $SystemName = "GNC-System_Überprüfung"
 $SystemAuthor = "Rainer Gärtner"
 $SystemCopyright = "(c)2021 by Gabberloki GNC"
 $SystemDate =  Get-Date -Format "dddd dd.MM.yyyy" 
-$SystemTime =  Get-Date -Format "HH:mm:ss" 
+$SystemTime =  Get-Date -Format "HH:mm:ss"
+[int]$TimeToWait = "20"
 #endregion
 
 #region Prüfen auf Admin Rechte
@@ -30,12 +31,12 @@ if ($UserIsAdmin -eq $false)
     Write-Host "Das Scripte wurde ohne Administrative Privilegien gestartet." -ForegroundColor Red
     Write-Host "Die meisten Funktionen, haben somit kein Zugriff!" -ForegroundColor Red
     Write-Host "Bitte starten Sie das Script mit administrativen Privilegien!" -ForegroundColor Red
-    Write-Host "Das Script wird in 10 Secunden beendet!" -ForegroundColor Red
+    Write-Host "Das Script wird in $TimeToWait Sekunden beendet!" -ForegroundColor Red
     
-    for($i=0;$i -le 10; $i++){
+    for($i=0;$i -le $TimeToWait; $i++){
 
-       $perzentcomplete = ($i / 10) * 100
-       Write-Progress -Activity "Script Ende in $i von 10 Sekunden!" -Status "noch $i Sekunden" -PercentComplete $perzentcomplete
+       $perzentcomplete = ($i / $TimeToWait) * 100
+       Write-Progress -Activity "Script Ende in $i von $TimeToWait Sekunden!" -Status "noch $i Sekunden" -PercentComplete $perzentcomplete
        Start-Sleep -Seconds 1
     }
     Break Script
