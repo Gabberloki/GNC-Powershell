@@ -93,6 +93,9 @@ Write-Host " "
 
 #region _Blank
 $ComputerInfo = Get-ComputerInfo
+
+$Windows_Themen = Get-WindowsTheme
+
 Write-Host "Folgendes System wurde erkannt:"
 Write-Host " "
 
@@ -215,6 +218,11 @@ Write-Host $ComputerInfo.TimeZone -ForegroundColor Green
 
 Write-Host "Logon Server:...................... " -ForegroundColor Cyan -NoNewline
 Write-Host $ComputerInfo.LogonServer -ForegroundColor Green
+
+Write-Host "Windows Themen:...................... " -ForegroundColor Cyan -NoNewline
+Write-Host $Windows_Themen.system -ForegroundColor Green
+
+
 
 Write-Host ""
 Write-Host "##########################################################################################################################" -ForegroundColor DarkYellow

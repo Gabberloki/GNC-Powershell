@@ -1,0 +1,223 @@
+﻿**********************
+nStart der Windows PowerShell-Aufzeichnung
+Startzeit: 20210420025727
+Benutzername: GNC-W10-W01\gabbe
+RunAs-Benutzer: GNC-W10-W01\gabbe
+Konfigurationsname: 
+Computer: GNC-W10-W01 (Microsoft Windows NT 10.0.19042.0)
+Hostanwendung: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Prozess-ID: 16608
+PSVersion: 5.1.19041.906
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.906
+BuildVersion: 10.0.19041.906
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Die Aufzeichnung wurde gestartet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\GNC-System_Überpruefung-20.04.2021_02_57_27.log".
+
+Starte 20.04.2021_02_57_27 - Script GNC-System_Überpruefung V1.1
+
+
+
+
+
+
+
+Das Scripte wurde ohne Administrative Privilegien gestartet.
+Die meisten Funktionen, haben somit kein Zugriff!
+Bitte starten Sie das Script mit administrativen Privilegien!
+Das Script wird in 5 Sekunden beendet!
+PS>TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(): "Die Pipeline wurde beendet."
+PS C:\Users\gabbe\Documents\WindowsPowerShell\Modules/>
+
+PS>Get-Variable
+
+Name                           Value
+----                           -----
+$                              Get-WindowsTheme
+?                              False
+^                              Get-WindowsTheme
+args                           {}
+Athlete                        Athlete
+AthleteData                    #document
+AthObject                      System.Object
+ConfirmPreference              High
+ConsoleFileName
+Count                          0
+DebugPreference                Continue
+DebugPreferenceOld             Continue
+dtmToday                       20.04.2021_02_57_27
+Error                          {System.Management.Automation.CmdletInvocatio...
+ErrorActionPreference          Continue
+ErrorView                      NormalView
+ExecutionContext               System.Management.Automation.EngineIntrinsics
+false                          False
+foreach
+FormatEnumerationLimit         4
+HOME                           C:\Users\gabbe
+Host                           System.Management.Automation.Internal.Host.In...
+i                              2
+InformationPreference          SilentlyContinue
+input                          System.Collections.ArrayList+ArrayListEnumera...
+LogFile                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+LogPath                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+MaximumAliasCount              4096
+MaximumDriveCount              4096
+MaximumErrorCount              256
+MaximumFunctionCount           4096
+MaximumHistoryCount            4096
+MaximumVariableCount           4096
+MyInvocation                   System.Management.Automation.InvocationInfo
+NestedPromptLevel              0
+null
+OutputEncoding                 System.Text.SBCSCodePageEncoding
+perzentcomplete                40
+PID                            16608
+profile                        C:\Users\gabbe\Documents\WindowsPowerShell\Mi...
+ProgressPreference             Continue
+PSBoundParameters              {}
+PSCommandPath
+PSCulture                      de-DE
+PSDefaultParameterValues       {}
+PSEdition                      Desktop
+PSEmailServer
+PSHOME                         C:\Windows\System32\WindowsPowerShell\v1.0
+psISE                          Microsoft.PowerShell.Host.ISE.ObjectModelRoot
+PSModulPath                    {C:\Users\gabbe\Documents\WindowsPowerShell\M...
+PSScriptRoot
+PSSessionApplicationName       wsman
+PSSessionConfigurationName     http://schemas.microsoft.com/powershell/Micro...
+PSSessionOption                System.Management.Automation.Remoting.PSSessi...
+PSUICulture                    de-DE
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(format-default): "Ein Aufrufziel hat einen Ausnahmefehler verursacht."
+>> Get-Variable
+
+Name                           Value
+----                           -----
+$                              Get-WindowsTheme
+?                              False
+^                              Get-WindowsTheme
+args                           {}
+Athlete                        Athlete
+AthleteData                    #document
+AthObject                      System.Object
+ConfirmPreference              High
+ConsoleFileName
+Count                          0
+DebugPreference                Continue
+DebugPreferenceOld             Continue
+dtmToday                       20.04.2021_02_57_27
+Error                          {System.Management.Automation.CmdletInvocatio...
+ErrorActionPreference          Continue
+ErrorView                      NormalView
+ExecutionContext               System.Management.Automation.EngineIntrinsics
+false                          False
+foreach
+FormatEnumerationLimit         4
+HOME                           C:\Users\gabbe
+Host                           System.Management.Automation.Internal.Host.In...
+i                              2
+InformationPreference          SilentlyContinue
+input                          System.Collections.ArrayList+ArrayListEnumera...
+LogFile                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+LogPath                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+MaximumAliasCount              4096
+MaximumDriveCount              4096
+MaximumErrorCount              256
+MaximumFunctionCount           4096
+MaximumHistoryCount            4096
+MaximumVariableCount           4096
+MyInvocation                   System.Management.Automation.InvocationInfo
+NestedPromptLevel              0
+null
+OutputEncoding                 System.Text.SBCSCodePageEncoding
+perzentcomplete                40
+PID                            16608
+profile                        C:\Users\gabbe\Documents\WindowsPowerShell\Mi...
+ProgressPreference             Continue
+PSBoundParameters              {}
+PSCommandPath
+PSCulture                      de-DE
+PSDefaultParameterValues       {}
+PSEdition                      Desktop
+PSEmailServer
+PSHOME                         C:\Windows\System32\WindowsPowerShell\v1.0
+psISE                          Microsoft.PowerShell.Host.ISE.ObjectModelRoot
+PSModulPath                    {C:\Users\gabbe\Documents\WindowsPowerShell\M...
+PSScriptRoot
+PSSessionApplicationName       wsman
+PSSessionConfigurationName     http://schemas.microsoft.com/powershell/Micro...
+PSSessionOption                System.Management.Automation.Remoting.PSSessi...
+PSUICulture                    de-DE
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(format-default): "Ein Aufrufziel hat einen Ausnahmefehler verursacht."
+>> Get-Variable
+
+Name                           Value
+----                           -----
+$                              Get-WindowsTheme
+?                              False
+^                              Get-WindowsTheme
+args                           {}
+Athlete                        Athlete
+AthleteData                    #document
+AthObject                      System.Object
+ConfirmPreference              High
+ConsoleFileName
+Count                          0
+DebugPreference                Continue
+DebugPreferenceOld             Continue
+dtmToday                       20.04.2021_02_57_27
+Error                          {System.Management.Automation.CmdletInvocatio...
+ErrorActionPreference          Continue
+ErrorView                      NormalView
+ExecutionContext               System.Management.Automation.EngineIntrinsics
+false                          False
+foreach
+FormatEnumerationLimit         4
+HOME                           C:\Users\gabbe
+Host                           System.Management.Automation.Internal.Host.In...
+i                              2
+InformationPreference          SilentlyContinue
+input                          System.Collections.ArrayList+ArrayListEnumera...
+LogFile                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+LogPath                        C:\Users\gabbe\Documents\GitHub\GNC-Powershel...
+MaximumAliasCount              4096
+MaximumDriveCount              4096
+MaximumErrorCount              256
+MaximumFunctionCount           4096
+MaximumHistoryCount            4096
+MaximumVariableCount           4096
+MyInvocation                   System.Management.Automation.InvocationInfo
+NestedPromptLevel              0
+null
+OutputEncoding                 System.Text.SBCSCodePageEncoding
+perzentcomplete                40
+PID                            16608
+profile                        C:\Users\gabbe\Documents\WindowsPowerShell\Mi...
+ProgressPreference             Continue
+PSBoundParameters              {}
+PSCommandPath
+PSCulture                      de-DE
+PSDefaultParameterValues       {}
+PSEdition                      Desktop
+PSEmailServer
+PSHOME                         C:\Windows\System32\WindowsPowerShell\v1.0
+psISE                          Microsoft.PowerShell.Host.ISE.ObjectModelRoot
+PSModulPath                    {C:\Users\gabbe\Documents\WindowsPowerShell\M...
+PSScriptRoot
+PSSessionApplicationName       wsman
+PSSessionConfigurationName     http://schemas.microsoft.com/powershell/Micro...
+PSSessionOption                System.Management.Automation.Remoting.PSSessi...
+PSUICulture                    de-DE
+>> TerminatingError(): "Die Pipeline wurde beendet."
+>> TerminatingError(format-default): "Ein Aufrufziel hat einen Ausnahmefehler verursacht."
+**********************
+Ende der Windows PowerShell-Aufzeichnung
+Endzeit: 20210420025830
+**********************
