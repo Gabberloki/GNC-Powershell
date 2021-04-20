@@ -5,10 +5,10 @@ Clear-Host
 #region Script Variablen
 $ScriptName = "CTN-Treesize"
 $ScriptVersion = "3.0.1"
-$MinPathGröße = "50"
-$profilePfadCTN = "\\Na0-FS-01\tsprofiles$"
+$MinPathGröße = "50" # Minimal Größe in MB die gefunden werden soll
+$profilePfadCTN = "\\Na0-FS-01\tsprofiles$" 
 $profilePfadOrbis = "\\ah0-fs-02\tsprofiles$"
-$profilePfadHome = "\\localhost\c$\Temp"
+$profilePfadHome = "G:\Spiele"
 $FileDatum = Get-date -Format "_dd.MM.yyyy_HH_mm"
 $dtmToday = Get-Date -Format "dd.MM.yyyy_HH:mm"
 #endregion
@@ -58,7 +58,7 @@ Write-Host "`nStarte $dtmToday - Script $ScriptName $ScriptVersion`n"
     Write-Host "1:  $profilePfadCTN"
     Write-Host "2:  $profilePfadOrbis"
     Write-Host ""
-    Write-Host "Bitte den Profile Server auswah (default: $profilePfadOrbis):" -ForegroundColor Magenta -NoNewline
+    Write-Host "Bitte den Profile Server auswählen (default: $profilePfadOrbis): " -ForegroundColor Magenta -NoNewline
     $Server_Eingabe = Read-Host 
     Write-Host ""
     switch ($Server_Eingabe)

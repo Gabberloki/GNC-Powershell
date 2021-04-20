@@ -1,0 +1,181 @@
+﻿**********************
+nStart der Windows PowerShell-Aufzeichnung
+Startzeit: 20210420022213
+Benutzername: GNC-W10-W01\gabbe
+RunAs-Benutzer: GNC-W10-W01\gabbe
+Konfigurationsname: 
+Computer: GNC-W10-W01 (Microsoft Windows NT 10.0.19042.0)
+Hostanwendung: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Prozess-ID: 19744
+PSVersion: 5.1.19041.906
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.906
+BuildVersion: 10.0.19041.906
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Die Aufzeichnung wurde gestartet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\LOG\GNC-System_Überpruefung-20.04.2021_02_22_13.log".
+
+Starte 20.04.2021_02_22_13 - Script GNC-System_Überpruefung V1.1
+############################################################
+#                                                          #
+#                   GNC-System_Überpruefung                #
+#                       Rainer Gärtner                     #
+#                 (c)2021 by Gabberloki GNC                #
+#                 Dienstag 20.04.2021 02:22:13             #
+#                                                          #
+############################################################
+
+Folgendes System wurde erkannt:
+
+Hostanme:..........................
+GNC-W10-W01
+Registrierter Benutzer:............
+gabberloki@outlook.de
+Betriebssystem Architektur:........
+64-Bit
+Betriebtssystem:...................
+Microsoft Windows 10 Pro
+Betriebssystem Version:............
+10.0.19042
+Betriebssystem Version:............
+19042
+Installations Datum:...............
+23.08.2020 17:58:14
+Type der Machine:..................
+Client
+Hersteller:........................
+System manufacturer
+Modell:............................
+System Product Name
+Systemname:........................
+To be filled by O.E.M.
+Bios Version:......................
+3802
+Bios Datum:........................
+15.03.2018 01:00:00
+Bios Build:........................
+Uefi
+Bios Status:.......................
+OK
+Boot Status:.......................
+Normal boot
+CPU Daten:.........................
+Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+CPU Description:...................
+Intel64 Family 6 Model 94 Stepping 3
+CPU Socket:........................
+LGA1151
+CPU Speed:.........................
+3408 MHz
+CPU HyperThreads:..................
+8
+CPU Eco:...........................
+RunningOrFullPower
+CPU Eco Mode:......................
+Desktop
+RAM Speicher:......................
+34293633024
+System läuft seid:.................
+09:09:56.2235627
+Boot Datum:........................
+19.04.2021 17:12:17
+Thermal Status:....................
+Safe
+System Role:.......................
+StandaloneWorkstation
+System Sprache:....................
+de-DE
+Boot Partition:....................
+\Device\HarddiskVolume9
+System Partition:..................
+\Device\HarddiskVolume11
+System Ordner:.....................
+C:\Windows\system32
+System Laufwerk:...................
+C:
+Windows Ordner:....................
+C:\Windows
+Vorhandene UserProfile:............
+2
+Anzahl der laufenden Prozesse:.....
+261
+Verschlüsselungslevel:.............
+256
+Fordergrund Application Boost:.....
+Maximum
+Zeitzone:..........................
+(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien
+Logon Server:......................
+\\GNC-W10-W01
+
+##########################################################################################################################
+
+Netzwerk Karte  1 :
+Netzwerkkarten ID:
+Physical Ethernet  Adapter
+Beschreibung
+Intel(R) Ethernet Connection (2) I219-V
+DHCP eingeschaltet?
+True
+Verbindungs Status
+Connected
+IP Adressen
+
+
+Netzwerk Karte  2 :
+Netzwerkkarten ID:
+Bluetooth-Netzwerkverbindung
+Beschreibung
+Bluetooth Device (Personal Area Network)
+DHCP eingeschaltet?
+
+Verbindungs Status
+HardwareNotPresent
+IP Adressen
+
+
+Netzwerk Karte  3 :
+Netzwerkkarten ID:
+Ethernet 2
+Beschreibung
+Xbox Wireless Adapter for Windows
+DHCP eingeschaltet?
+False
+Verbindungs Status
+Connected
+IP Adressen
+
+
+Netzwerk Karte  4 :
+Netzwerkkarten ID:
+vEthernet (Default Switch)
+Beschreibung
+Hyper-V Virtual Ethernet Adapter
+DHCP eingeschaltet?
+False
+Verbindungs Status
+Connected
+IP Adressen
+172.28.240.1 fe80::1c84:b9fa:e3d6:7311
+
+Netzwerk Karte  5 :
+Netzwerkkarten ID:
+vEthernet (Extern) eth1
+Beschreibung
+Hyper-V Virtual Ethernet Adapter
+DHCP eingeschaltet?
+True
+Verbindungs Status
+Connected
+IP Adressen
+192.168.111.100 fe80::4de3:890f:ef61:76b4 fd7d:7d12:c3b2:1:a802:b562:47e6:1a92 2003:eb:271a:9173:a802:b562:47e6:1a92 fd7d:7d12:c3b2:1:4de3:890f:ef61:76b4 2003:eb:271a:9173:4de3:890f:ef61:76b4
+
+
+Beende GNC-System_Überpruefung Dienstag, 20. April 2021 02:22:15
+**********************
+Ende der Windows PowerShell-Aufzeichnung
+Endzeit: 20210420022215
+**********************

@@ -6,18 +6,46 @@ Clear-Host
 
 #endregion
 
-#region AusführungsPfad ermitteln
-$Scriptpath = Split-Path $script:MyInvocation.MyCommand.Path
-#endregion
-
 #region Start Variablen
-$SystemName = "GNC-System_Überprüfung"
+$ScriptName = "GNC-System_Überpruefung"
+$SystemName = "GNC-System_Überpruefung"
+$ScriptVersion = "V1.1"
 $SystemAuthor = "Rainer Gärtner"
 $SystemCopyright = "(c)2021 by Gabberloki GNC"
 $SystemDate =  Get-Date -Format "dddd dd.MM.yyyy" 
 $SystemTime =  Get-Date -Format "HH:mm:ss"
+$dtmToday = Get-Date -Format "dd.MM.yyyy_HH_mm_ss"
 [int]$TimeToWait = "5"
 $Count = 0
+#endregion
+
+#region Script Pfad und Log Pfad
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$LogPath = "$ScriptDir\LOG\"
+$LogFile = "$ScriptDir\LOG\$ScriptName-$dtmToday.log"
+#endregion
+
+
+#region Ausgabe Einstellungen für dieses Script
+$DebugPreferenceOld = $DebugPreference
+$VerbosePreferenceOld = $VerbosePreference
+$DebugPreference = "Continue" # Continue zeigt Debugmeldungen mit Write-Debug an - SilentlyContinue zeigt diese nicht an
+$VerbosePreference = "Continue" # Continue zeigt Verbosemeldungen mit Write-Verbose n - SilentlyContinue zeigt diese nicht an
+#endregion
+
+#region Transcript Starten zum Aufzeichen des Scripts
+Try { Start-Transcript -Path $Logfile -Append -ErrorAction Stop }
+Catch { 
+    "Fehler beim Versuch in Logdatei zu schreiben - versuche es noch mal..."
+    Stop-Transcript -ErrorAction SilentlyContinue
+    Try { Start-Transcript -Path $Logfile -Append -ErrorAction Stop}
+    Catch {
+        “Fehler beim Versuch in Logdatei $Logfile zu schreiben ($($Error[0])) - Das Programm wird beendet!`nVielleicht ist die Logdatei noch geöffnet. Oder der letzte Scriptlauf ist noch nicht beendet. Oft hilft hier ein Neustart der Powershell Administrator Sitzung.`nOder Ausführen von Stop-Transcript."
+        Stop-Transcript -ErrorAction SilentlyContinue
+        Exit
+    } # Catch #2
+} # Catch #1
+Write-Host "`nStarte $dtmToday - Script $ScriptName $ScriptVersion`n"
 #endregion
 
 #region Prüfen auf Admin Rechte
@@ -54,10 +82,10 @@ if ($UserIsAdmin -eq $false)
 #region Header Ausgabe
 Write-Host "############################################################" -ForegroundColor Green
 Write-Host "#                                                          #" -ForegroundColor Green
-Write-Host "#                   $SystemName                 #"            -ForegroundColor Green
+Write-Host "#                   $SystemName                #"            -ForegroundColor Green
 Write-Host "#                       $SystemAuthor                     #"  -ForegroundColor Green
 Write-Host "#                 $SystemCopyright                #"          -ForegroundColor Green
-Write-Host "#                 $SystemDate $SystemTime              #"    -ForegroundColor Green
+Write-Host "#                 $SystemDate $SystemTime             #"    -ForegroundColor Green
 Write-Host "#                                                          #" -ForegroundColor Green
 Write-Host "############################################################" -ForegroundColor Green
 Write-Host " "
@@ -209,3 +237,17 @@ foreach ($item in $ComputerInfo.CsNetworkAdapters)
     Write-Host ""
 }
 #endregion
+
+#region Debug Einstellung zurücksetzten
+$DebugPreference = $DebugPreferenceOld
+#$VerbosePreference = $VerbosePreferenceOld
+#endregion
+
+#region Zeit neu laden für Script Ende
+$dtmToday = ((Get-Date).dateTime).tostring()
+Write-Host "`nBeende $SystemName $dtmToday `n"
+#endregion
+
+#region Logging beenden
+Stop-Transcript 
+#endregion 

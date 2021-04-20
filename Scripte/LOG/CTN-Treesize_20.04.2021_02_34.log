@@ -1,0 +1,1706 @@
+﻿**********************
+nStart der Windows PowerShell-Aufzeichnung
+Startzeit: 20210420023409
+Benutzername: GNC-W10-W01\gabbe
+RunAs-Benutzer: GNC-W10-W01\gabbe
+Konfigurationsname: 
+Computer: GNC-W10-W01 (Microsoft Windows NT 10.0.19042.0)
+Hostanwendung: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Prozess-ID: 19744
+PSVersion: 5.1.19041.906
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.906
+BuildVersion: 10.0.19041.906
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Die Aufzeichnung wurde gestartet. Die Ausgabedatei ist "C:\Users\gabbe\Documents\GitHub\GNC-Powershell\Scripte\LOG\CTN-Treesize_20.04.2021_02_34.log".
+
+Starte 20.04.2021_02:34 - Script CTN-Treesize 3.0.1
+====================================================================
+=                                                                  =
+=                         CTN-Treesize 3.0.1                       =
+=                    Copyrights by Rainer Gärtner                  =
+=                           (c) 2021 DLCIT                         =
+=                                                                  =
+====================================================================
+
+Auf welchem Profile-Server soll der Vorgang durchgeführt werden?:
+
+1:  \\Na0-FS-01\tsprofiles$
+2:  \\ah0-fs-02\tsprofiles$
+
+Bitte den Profile Server auswählen (default: \\ah0-fs-02\tsprofiles$):
+
+Server wurde auf G:\Spiele gesetzt!
+
+#############################################################################################
+
+G:\Spiele\Anno 1404
+
+
+6229,18  MB im Profil
+ in  281 Dateien!
+1318,02
+ MB -
+Data2.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  38  Zeichen
+940,8
+ MB -
+Data4.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  38  Zeichen
+560,11
+ MB -
+ger0.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  37  Zeichen
+521,35
+ MB -
+ita0.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  37  Zeichen
+508,13
+ MB -
+eng0.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  37  Zeichen
+486,49
+ MB -
+fra0.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  37  Zeichen
+473,12
+ MB -
+esp0.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  37  Zeichen
+326,31
+ MB -
+Data3.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  38  Zeichen
+153,77
+ MB -
+Data2.rda
+ -
+G:\Spiele\Anno 1404\addon
+ -  35  Zeichen
+141,97
+ MB -
+patch0.rda
+ -
+G:\Spiele\Anno 1404\maindata
+ -  39  Zeichen
+G:\Spiele\Anno 1602
+
+
+649,23  MB im Profil
+ in
+1501
+ Dateien!
+G:\Spiele\Anno 2070
+
+
+7177,6  MB im Profil
+ in  363 Dateien!
+1220,31
+ MB -
+Data2.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  38  Zeichen
+704,99
+ MB -
+Data4.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  38  Zeichen
+476,04
+ MB -
+rus0.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  37  Zeichen
+467,62
+ MB -
+ger0.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  37  Zeichen
+450,78
+ MB -
+eng0.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  37  Zeichen
+450,72
+ MB -
+esp0.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  37  Zeichen
+450,72
+ MB -
+ita0.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  37  Zeichen
+450,68
+ MB -
+pol0.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  37  Zeichen
+450,62
+ MB -
+cze0.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  37  Zeichen
+432,16
+ MB -
+fra0.rda
+ -
+G:\Spiele\Anno 2070\maindata
+ -  37  Zeichen
+G:\Spiele\Anno 2205
+
+
+33754,17  MB im Profil
+ in  259 Dateien!
+4561,52
+ MB -
+data13.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  39  Zeichen
+3532,66
+ MB -
+data17.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  39  Zeichen
+2986,99
+ MB -
+data3.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  38  Zeichen
+2733,84
+ MB -
+data7.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  38  Zeichen
+2593,26
+ MB -
+data6.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  38  Zeichen
+2559,37
+ MB -
+data4.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  38  Zeichen
+1742,43
+ MB -
+data12.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  39  Zeichen
+1621,85
+ MB -
+data9.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  38  Zeichen
+1558,98
+ MB -
+data14.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  39  Zeichen
+1508,64
+ MB -
+data2.rda
+ -
+G:\Spiele\Anno 2205\maindata
+ -  38  Zeichen
+G:\Spiele\Assassin's Creed Chronicles China
+
+
+3449,37  MB im Profil
+ in
+681
+ Dateien!
+G:\Spiele\Assassin's Creed II
+
+
+7072,62  MB im Profil
+ in  324 Dateien!
+754,88
+ MB -
+DataPC_Firenze.forge
+ -
+G:\Spiele\Assassin's Creed II
+ -  50  Zeichen
+662,38
+ MB -
+DataPC_Venezia.forge
+ -
+G:\Spiele\Assassin's Creed II
+ -  50  Zeichen
+529
+ MB -
+sounds_sfx.pck
+ -
+G:\Spiele\Assassin's Creed II\SoundData\pc
+ -  57  Zeichen
+374,25
+ MB -
+DataPC_Wetlands.forge
+ -
+G:\Spiele\Assassin's Creed II
+ -  51  Zeichen
+290
+ MB -
+DataPC_Toscana.forge
+ -
+G:\Spiele\Assassin's Creed II
+ -  50  Zeichen
+248,34
+ MB -
+DataPC_Villa.forge
+ -
+G:\Spiele\Assassin's Creed II
+ -  48  Zeichen
+245,34
+ MB -
+sounds_rus.pck
+ -
+G:\Spiele\Assassin's Creed II\SoundData\pc
+ -  57  Zeichen
+242,38
+ MB -
+sounds_ger.pck
+ -
+G:\Spiele\Assassin's Creed II\SoundData\pc
+ -  57  Zeichen
+239,7
+ MB -
+sounds_ita.pck
+ -
+G:\Spiele\Assassin's Creed II\SoundData\pc
+ -  57  Zeichen
+233,85
+ MB -
+sounds_eng.pck
+ -
+G:\Spiele\Assassin's Creed II\SoundData\pc
+ -  57  Zeichen
+G:\Spiele\Assassin's Creed IV Black Flag
+
+
+25926,9  MB im Profil
+ in  472 Dateien!
+2483,09
+ MB -
+DataPC.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag\multi
+ -  59  Zeichen
+1601,16
+ MB -
+DataPC_CaribbeanSea.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag
+ -  66  Zeichen
+1458,56
+ MB -
+DataPC_extra_chr.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag
+ -  63  Zeichen
+1263,04
+ MB -
+sounds_sfx.pck
+ -
+G:\Spiele\Assassin's Creed IV Black Flag\sounddata\PC_DX11
+ -  73  Zeichen
+940,88
+ MB -
+DataPC_Kingston.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag
+ -  62  Zeichen
+848
+ MB -
+DataPC_extra.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag\multi
+ -  65  Zeichen
+735,38
+ MB -
+DataPC_skins_0005_00000020_dlc.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag\multi
+ -  83  Zeichen
+732,75
+ MB -
+DataPC_Havana.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag
+ -  60  Zeichen
+642,09
+ MB -
+DataPC_Aveline_1_dlc.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag\dlc_1
+ -  73  Zeichen
+619,66
+ MB -
+DataPC_Hideout.forge
+ -
+G:\Spiele\Assassin's Creed IV Black Flag
+ -  61  Zeichen
+G:\Spiele\Assassin's Creed Odyssey
+
+
+102827  MB im Profil
+ in  853 Dateien!
+20218,06
+ MB -
+DataPC_ACD_greece_ext.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey
+ -  62  Zeichen
+9562,06
+ MB -
+DataPC_ACD_Greece.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey
+ -  58  Zeichen
+5230,91
+ MB -
+DataPC_ACD_Atlantis_gi.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey\dlc_34
+ -  70  Zeichen
+5035,94
+ MB -
+DataPC_ACD_Greece_gi_ext.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey
+ -  65  Zeichen
+5024,86
+ MB -
+DataPC_ACD_Elysium.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey\dlc_32
+ -  66  Zeichen
+4272,38
+ MB -
+DataPC_SharedGroup_00.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey
+ -  62  Zeichen
+4229,4
+ MB -
+DataPC_ACD_Underworld.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey\dlc_33
+ -  69  Zeichen
+3280,66
+ MB -
+DataPC_ACD_Atlantis.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey\dlc_34
+ -  67  Zeichen
+2862,59
+ MB -
+DataPC_43_dlc.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey\dlc_43
+ -  61  Zeichen
+2693,7
+ MB -
+DataPC_patch_01.forge
+ -
+G:\Spiele\Assassin's Creed Odyssey
+ -  56  Zeichen
+G:\Spiele\Assassin's Creed Origins
+
+
+49628,53  MB im Profil
+ in  400 Dateien!
+12786,31
+ MB -
+DataPC_ACE_Egypt_ext.forge
+ -
+G:\Spiele\Assassin's Creed Origins
+ -  61  Zeichen
+6949,62
+ MB -
+DataPC_ACE_Egypt.forge
+ -
+G:\Spiele\Assassin's Creed Origins
+ -  57  Zeichen
+3611,12
+ MB -
+DataPC_SharedGroup_01.forge
+ -
+G:\Spiele\Assassin's Creed Origins
+ -  62  Zeichen
+3255,28
+ MB -
+DataPC_ACE_Egypt_ext_assets.forge
+ -
+G:\Spiele\Assassin's Creed Origins
+ -  68  Zeichen
+3134
+ MB -
+DataPC_ACE_Egypt_gi_ext.forge
+ -
+G:\Spiele\Assassin's Creed Origins
+ -  64  Zeichen
+1419,27
+ MB -
+sounds_sfx.pck
+ -
+G:\Spiele\Assassin's Creed Origins\sounddata\PC
+ -  62  Zeichen
+1129,94
+ MB -
+DataPC_ACE_Egypt_30_dlc.forge
+ -
+G:\Spiele\Assassin's Creed Origins\dlc_30
+ -  71  Zeichen
+1000,81
+ MB -
+DataPC_extra.forge
+ -
+G:\Spiele\Assassin's Creed Origins
+ -  53  Zeichen
+947,66
+ MB -
+DataPC_30_dlc.forge
+ -
+G:\Spiele\Assassin's Creed Origins\dlc_30
+ -  61  Zeichen
+945,47
+ MB -
+DataPC_ACE_Duat.forge
+ -
+G:\Spiele\Assassin's Creed Origins
+ -  56  Zeichen
+G:\Spiele\Assassin's Creed Unity
+
+
+50589,62  MB im Profil
+ in  483 Dateien!
+14159,75
+ MB -
+DataPC_ACU_Paris_gi.forge
+ -
+G:\Spiele\Assassin's Creed Unity
+ -  58  Zeichen
+4945,84
+ MB -
+DataPC_ACU_Paris_assets.forge
+ -
+G:\Spiele\Assassin's Creed Unity
+ -  62  Zeichen
+4699,38
+ MB -
+DataPC_ACU-DLC_Saint-Denis_gi.forge
+ -
+G:\Spiele\Assassin's Creed Unity\dlc_11
+ -  75  Zeichen
+3596,06
+ MB -
+DataPC_ACU_Paris.forge
+ -
+G:\Spiele\Assassin's Creed Unity
+ -  55  Zeichen
+2702,91
+ MB -
+DataPC_ACU-DLC_Saint-Denis.forge
+ -
+G:\Spiele\Assassin's Creed Unity\dlc_11
+ -  72  Zeichen
+1344,09
+ MB -
+DataPC_ACU_Versailles_gi.forge
+ -
+G:\Spiele\Assassin's Creed Unity
+ -  63  Zeichen
+991,47
+ MB -
+DataPC_SharedGroup_00.forge
+ -
+G:\Spiele\Assassin's Creed Unity
+ -  60  Zeichen
+827,11
+ MB -
+sounds_sfx.pck
+ -
+G:\Spiele\Assassin's Creed Unity\sounddata\PC
+ -  60  Zeichen
+756,66
+ MB -
+DataPC_ACU_Versailles_assets.forge
+ -
+G:\Spiele\Assassin's Creed Unity
+ -  67  Zeichen
+651,44
+ MB -
+DataPC_SharedGroup_01.forge
+ -
+G:\Spiele\Assassin's Creed Unity
+ -  60  Zeichen
+G:\Spiele\Assassin's Creed Valhalla
+
+
+53796,17  MB im Profil
+ in  298 Dateien!
+18263,19
+ MB -
+DataPC_ACK_England.forge
+ -
+G:\Spiele\Assassin's Creed Valhalla
+ -  60  Zeichen
+7811,38
+ MB -
+DataPC_SharedGroup_00.forge
+ -
+G:\Spiele\Assassin's Creed Valhalla
+ -  63  Zeichen
+3464,75
+ MB -
+DataPC_ACK_Norway.forge
+ -
+G:\Spiele\Assassin's Creed Valhalla
+ -  59  Zeichen
+2872
+ MB -
+DataPC_ACK_England_gi.forge
+ -
+G:\Spiele\Assassin's Creed Valhalla
+ -  63  Zeichen
+1815,72
+ MB -
+DataPC_ACK_England_patch_01.forge
+ -
+G:\Spiele\Assassin's Creed Valhalla
+ -  69  Zeichen
+1228,52
+ MB -
+sounds_ger.pck
+ -
+G:\Spiele\Assassin's Creed Valhalla\sounddata\PC
+ -  63  Zeichen
+1205,09
+ MB -
+sounds_eng.pck
+ -
+G:\Spiele\Assassin's Creed Valhalla\sounddata\PC
+ -  63  Zeichen
+1030,94
+ MB -
+DataPC_ACK_Norway_ext.forge
+ -
+G:\Spiele\Assassin's Creed Valhalla
+ -  63  Zeichen
+896,19
+ MB -
+DataPC_ACK_Asgard.forge
+ -
+G:\Spiele\Assassin's Creed Valhalla
+ -  59  Zeichen
+880,65
+ MB -
+sounds_sfx.pck
+ -
+G:\Spiele\Assassin's Creed Valhalla\sounddata\PC
+ -  63  Zeichen
+G:\Spiele\Call of Duty Black Ops 4
+
+
+142389,34  MB im Profil
+ in  331 Dateien!
+1024
+ MB -
+data.010
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1024
+ MB -
+data.000
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1023,99
+ MB -
+data.012
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1023,99
+ MB -
+data.030
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1023,99
+ MB -
+data.034
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1023,96
+ MB -
+data.022
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1023,95
+ MB -
+data.011
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1023,94
+ MB -
+data.001
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1023,94
+ MB -
+data.005
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+1023,93
+ MB -
+data.067
+ -
+G:\Spiele\Call of Duty Black Ops 4\Data\data
+ -  53  Zeichen
+G:\Spiele\Call of Duty Modern Warfare
+
+
+76662,77  MB im Profil
+ in  391 Dateien!
+1024
+ MB -
+data.039
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1024
+ MB -
+data.040
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1024
+ MB -
+data.043
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1024
+ MB -
+data.065
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1024
+ MB -
+data.057
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1023,98
+ MB -
+data.055
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1023,98
+ MB -
+data.047
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1023,94
+ MB -
+data.044
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1023,92
+ MB -
+data.060
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+1023,92
+ MB -
+data.059
+ -
+G:\Spiele\Call of Duty Modern Warfare\Data\data
+ -  56  Zeichen
+G:\Spiele\FFXV-Online
+
+
+35256,12  MB im Profil
+ in  123 Dateien!
+1907,35
+ MB -
+020000.win32.dat0
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+1907,35
+ MB -
+060000.win32.dat0
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+1907,35
+ MB -
+040000.win32.dat1
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+1907,35
+ MB -
+030100.win32.dat0
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ex1
+ -  101  Zeichen
+1907,35
+ MB -
+040000.win32.dat0
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+1907,35
+ MB -
+030000.win32.dat0
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+1907,35
+ MB -
+040000.win32.dat2
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+1907,35
+ MB -
+020000.win32.dat2
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+1907,35
+ MB -
+070000.win32.dat0
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+1907,35
+ MB -
+020000.win32.dat1
+ -
+G:\Spiele\FFXV-Online\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack\ffxiv
+ -  103  Zeichen
+G:\Spiele\ForHonor
+
+
+65237,25  MB im Profil
+ in  420 Dateien!
+3186,36
+ MB -
+gameassetpc_01_aa.forge
+ -
+G:\Spiele\ForHonor
+ -  42  Zeichen
+2927,79
+ MB -
+gameassetpc_01_ad.forge
+ -
+G:\Spiele\ForHonor
+ -  42  Zeichen
+2916,4
+ MB -
+gameassetpc_01_ad_high.forge
+ -
+G:\Spiele\ForHonor
+ -  47  Zeichen
+2845,68
+ MB -
+gameassetpc_01_ab.forge
+ -
+G:\Spiele\ForHonor
+ -  42  Zeichen
+2535,8
+ MB -
+gameassetpc_01_ac.forge
+ -
+G:\Spiele\ForHonor
+ -  42  Zeichen
+2413,8
+ MB -
+gameassetpc_00_aa.forge
+ -
+G:\Spiele\ForHonor
+ -  42  Zeichen
+2402,88
+ MB -
+gameassetpc_01_ae_high.forge
+ -
+G:\Spiele\ForHonor
+ -  47  Zeichen
+2387,27
+ MB -
+gameassetpc_01_aa_high.forge
+ -
+G:\Spiele\ForHonor
+ -  47  Zeichen
+2156,44
+ MB -
+gameassetpc_01_aa_sound.forge
+ -
+G:\Spiele\ForHonor
+ -  48  Zeichen
+2029,86
+ MB -
+gameassetpc_00_aa_sound.forge
+ -
+G:\Spiele\ForHonor
+ -  48  Zeichen
+G:\Spiele\Hearthstone
+
+
+4110,8  MB im Profil
+ in
+731
+ Dateien!
+G:\Spiele\Heroes of the Storm
+
+
+18199,96  MB im Profil
+ in  576 Dateien!
+1024
+ MB -
+data.002
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.005
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.008
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.003
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.004
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.006
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.001
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.007
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.009
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+1024
+ MB -
+data.010
+ -
+G:\Spiele\Heroes of the Storm\HeroesData\data
+ -  54  Zeichen
+G:\Spiele\Hyper Scape
+
+
+19887,59  MB im Profil
+ in  278 Dateien!
+2502,28
+ MB -
+datapc64_game_neoarcadia_bnk_gidata.forge
+ -
+G:\Spiele\Hyper Scape
+ -  63  Zeichen
+1371,07
+ MB -
+datapc64_game_neoarcadia_bnk_000000007_gidata.forge
+ -
+G:\Spiele\Hyper Scape
+ -  73  Zeichen
+1370,74
+ MB -
+datapc64_game_neoarcadia_bnk_000000003_gidata.forge
+ -
+G:\Spiele\Hyper Scape
+ -  73  Zeichen
+1276,72
+ MB -
+datapc64_merged_game_bnk_000000003_textures0.forge
+ -
+G:\Spiele\Hyper Scape
+ -  72  Zeichen
+1187,53
+ MB -
+datapc64_merged_bnk_textures2.forge
+ -
+G:\Spiele\Hyper Scape
+ -  57  Zeichen
+841,16
+ MB -
+datapc64_merged_bnk_000000003_textures2.forge
+ -
+G:\Spiele\Hyper Scape
+ -  67  Zeichen
+745,94
+ MB -
+datapc64_merged_game_bnk_000000006_textures0.forge
+ -
+G:\Spiele\Hyper Scape
+ -  72  Zeichen
+732,62
+ MB -
+datapc64_merged_game_bnk_textures0.forge
+ -
+G:\Spiele\Hyper Scape
+ -  62  Zeichen
+648,42
+ MB -
+datapc64_merged_bnk_000000004_textures2.forge
+ -
+G:\Spiele\Hyper Scape
+ -  67  Zeichen
+540,96
+ MB -
+datapc64_merged_bnk_000000002_textures3.forge
+ -
+G:\Spiele\Hyper Scape
+ -  67  Zeichen
+G:\Spiele\Immortals Fenyx Rising
+
+
+29909,45  MB im Profil
+ in  564 Dateien!
+7225,34
+ MB -
+DataPC_Orpheus_ext.forge
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  57  Zeichen
+4005,28
+ MB -
+DataPC.forge
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  45  Zeichen
+2803
+ MB -
+DataPC_Orpheus.forge
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  53  Zeichen
+2056,09
+ MB -
+DataPC_SharedGroup_00.forge
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  60  Zeichen
+1942
+ MB -
+DataPC_extra.forge
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  51  Zeichen
+1704,53
+ MB -
+DataPC_Orpheus_patch_01.forge
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  62  Zeichen
+1036
+ MB -
+DataPC_Orpheus_ext_gi.forge
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  60  Zeichen
+882,03
+ MB -
+DataPC_patch_01.forge
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  54  Zeichen
+517,76
+ MB -
+ImmortalsFenyxRising_plus.exe
+ -
+G:\Spiele\Immortals Fenyx Rising
+ -  62  Zeichen
+508,31
+ MB -
+sounds_sfx_music.pck
+ -
+G:\Spiele\Immortals Fenyx Rising\sounddata\pc
+ -  66  Zeichen
+G:\Spiele\Micrososft Flight Simulator 2020
+
+
+96501,48  MB im Profil
+ in  59571 Dateien!
+1540,56
+ MB -
+Asobo_Props.BGL
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\fs-base\scenery\Global\Asobo_Props
+ -  111  Zeichen
+1377,92
+ MB -
+Asobo_POI.BGL
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\fs-base\scenery\Global\Asobo_POI
+ -  107  Zeichen
+964,77
+ MB -
+SHARED.DPC
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\pc-fs-base-bigfiles\DATAS
+ -  97  Zeichen
+752,84
+ MB -
+paris_charles_de_gaulle.BGL
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\asobo-airport-lfpg-paris-charles-de-gaulle\scenery\paris_charles_de_gaulle
+ -  163  Zeichen
+520,2
+ MB -
+runway12_detail.tif
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\fs-base\texture
+ -  96  Zeichen
+458,67
+ MB -
+bldn102.cgl
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\fs-base-cgl\CGL\132
+ -  92  Zeichen
+457
+ MB -
+MENU_EARTH.DPC
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\pc-fs-base-bigfiles\WORLD
+ -  101  Zeichen
+369,45
+ MB -
+bldn121.cgl
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\fs-base-cgl\CGL\123
+ -  92  Zeichen
+367,4
+ MB -
+runway12_NRM.tif
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\fs-base\texture
+ -  93  Zeichen
+357,32
+ MB -
+bldn133.cgl
+ -
+G:\Spiele\Micrososft Flight Simulator 2020\Official\OneStore\fs-base-cgl\CGL\123
+ -  92  Zeichen
+G:\Spiele\SteamLibrary
+
+
+176137  MB im Profil
+ in  33065 Dateien!
+6213,64
+ MB -
+streaming.cache
+ -
+G:\Spiele\SteamLibrary\steamapps\common\The Witcher 3\content\content4
+ -  86  Zeichen
+3312,87
+ MB -
+texture.cache
+ -
+G:\Spiele\SteamLibrary\steamapps\common\The Witcher 3\content\content0
+ -  84  Zeichen
+3307,95
+ MB -
+movies.bundle
+ -
+G:\Spiele\SteamLibrary\steamapps\common\The Witcher 3\content\content4\bundles
+ -  92  Zeichen
+2825,3
+ MB -
+c01p2_lowgore.pages
+ -
+G:\Spiele\SteamLibrary\steamapps\common\Wolfenstein.The.New.Order.DE\virtualtextures
+ -  104  Zeichen
+2631,5
+ MB -
+c13p1_lowgore.pages
+ -
+G:\Spiele\SteamLibrary\steamapps\common\Wolfenstein.The.New.Order.DE\virtualtextures
+ -  104  Zeichen
+2381,48
+ MB -
+c03p2_lowgore.pages
+ -
+G:\Spiele\SteamLibrary\steamapps\common\Wolfenstein.The.New.Order.DE\virtualtextures
+ -  104  Zeichen
+2274,28
+ MB -
+c12p2_lowgore.pages
+ -
+G:\Spiele\SteamLibrary\steamapps\common\Wolfenstein.The.New.Order.DE\virtualtextures
+ -  104  Zeichen
+2199,94
+ MB -
+c08p1_2_lowgore.pages
+ -
+G:\Spiele\SteamLibrary\steamapps\common\Wolfenstein.The.New.Order.DE\virtualtextures
+ -  106  Zeichen
+2150,07
+ MB -
+c14p1_lowgore.pages
+ -
+G:\Spiele\SteamLibrary\steamapps\common\Wolfenstein.The.New.Order.DE\virtualtextures
+ -  104  Zeichen
+2047,99
+ MB -
+bigfile.008.tiger
+ -
+G:\Spiele\SteamLibrary\steamapps\common\Shadow of the Tomb Raider
+ -  83  Zeichen
+G:\Spiele\TESO
+
+
+76763,14  MB im Profil
+ in  355 Dateien!
+1457,54
+ MB -
+esoaudiode0008.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\vo_de
+ -  64  Zeichen
+1363,27
+ MB -
+esoaudiode0007.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\vo_de
+ -  64  Zeichen
+1291,93
+ MB -
+esoaudiode0001.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\vo_de
+ -  64  Zeichen
+1170,79
+ MB -
+esoaudiode0006.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\vo_de
+ -  64  Zeichen
+1161,59
+ MB -
+esoaudiode0005.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\vo_de
+ -  64  Zeichen
+1104,53
+ MB -
+esoaudiode0004.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\vo_de
+ -  64  Zeichen
+955,47
+ MB -
+esoaudiode0002.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\vo_de
+ -  64  Zeichen
+776,76
+ MB -
+esoaudiode0003.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\vo_de
+ -  64  Zeichen
+648,88
+ MB -
+eso0003.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\depot
+ -  57  Zeichen
+535,02
+ MB -
+eso0009.dat
+ -
+G:\Spiele\TESO\The Elder Scrolls Online\depot
+ -  57  Zeichen
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands
+
+
+87889,24  MB im Profil
+ in  518 Dateien!
+20364,47
+ MB -
+DataPC_GRN_WorldMap.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands
+ -  70  Zeichen
+13761,22
+ MB -
+DataPC_GRN_WorldMap_patch_01.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands
+ -  79  Zeichen
+7669,78
+ MB -
+DataPC.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands
+ -  57  Zeichen
+5528,06
+ MB -
+PCgr_terrainlin1.tbf
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands
+ -  65  Zeichen
+4143,53
+ MB -
+DataPC_patch_01.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands
+ -  66  Zeichen
+3225,97
+ MB -
+DataPC_GRN_WorldMap_10_dlc.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands\dlc_10
+ -  84  Zeichen
+2381,43
+ MB -
+DataPC_20_dlc.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands\dlc_20
+ -  71  Zeichen
+2289,22
+ MB -
+DataPC_GRN_WorldMap_20_dlc.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands\dlc_20
+ -  84  Zeichen
+2030,91
+ MB -
+DataPC_extra.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands
+ -  63  Zeichen
+1949,62
+ MB -
+DataPC_10_dlc.forge
+ -
+G:\Spiele\Tom Clancy's Ghost Recon Wildlands\dlc_10
+ -  71  Zeichen
+G:\Spiele\Tom Clancy's Rainbow Six Siege
+
+
+2,31  MB im Profil
+ in
+9
+ Dateien!
+G:\Spiele\Tom Clancy's The Division
+
+
+50562,86  MB im Profil
+ in  3531 Dateien!
+206,81
+ MB -
+sdf-B-1642.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf\pc\data
+ -  72  Zeichen
+156,38
+ MB -
+sdf-a-0000.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf_streaming\pc\nyc_manhattan\global\data
+ -  103  Zeichen
+144,32
+ MB -
+sdf-D-3013.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf\pc\data
+ -  72  Zeichen
+144,31
+ MB -
+sdf-D-3014.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf\pc\data
+ -  72  Zeichen
+144,12
+ MB -
+sdf-D-3011.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf\pc\data
+ -  72  Zeichen
+144,11
+ MB -
+sdf-D-3010.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf\pc\data
+ -  72  Zeichen
+144
+ MB -
+sdf-D-3012.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf\pc\data
+ -  72  Zeichen
+136,08
+ MB -
+sdf-D-3009.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf\pc\data
+ -  72  Zeichen
+127,7
+ MB -
+sdf-a-0000.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf_streaming\pc\sv_nyc_manhattan\global\data
+ -  106  Zeichen
+119,3
+ MB -
+sdf-A-0333.sdfdata
+ -
+G:\Spiele\Tom Clancy's The Division\rogue\sdf\pc\data
+ -  72  Zeichen
+G:\Spiele\Warcraft III
+
+
+1071,17  MB im Profil
+ in
+325
+ Dateien!
+G:\Spiele\Watch Dogs Legion
+
+
+63622,28  MB im Profil
+ in  251 Dateien!
+11779,05
+ MB -
+london_ultra.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64\worlds\london
+ -  69  Zeichen
+10806,43
+ MB -
+videos.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64
+ -  49  Zeichen
+7568,2
+ MB -
+london.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64\worlds\london
+ -  63  Zeichen
+5001,36
+ MB -
+london_sound.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64\worlds\london
+ -  69  Zeichen
+4928,17
+ MB -
+london_hires.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64\worlds\london
+ -  69  Zeichen
+4810,96
+ MB -
+patch.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64
+ -  48  Zeichen
+4346,52
+ MB -
+london_sound_german.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64\worlds\london
+ -  76  Zeichen
+3532,92
+ MB -
+videos_ultra.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64
+ -  55  Zeichen
+2957,35
+ MB -
+patch_german.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64
+ -  55  Zeichen
+2101,94
+ MB -
+shadersobj.dat
+ -
+G:\Spiele\Watch Dogs Legion\data_win64
+ -  53  Zeichen
+G:\Spiele\World in Conflict
+
+
+6853,9  MB im Profil
+ in  238 Dateien!
+1444,89
+ MB -
+wic1.sdf
+ -
+G:\Spiele\World in Conflict
+ -  36  Zeichen
+1118,63
+ MB -
+wic60.sdf
+ -
+G:\Spiele\World in Conflict
+ -  37  Zeichen
+1000,64
+ MB -
+wicloc12.sdf
+ -
+G:\Spiele\World in Conflict
+ -  40  Zeichen
+828
+ MB -
+wic3.sdf
+ -
+G:\Spiele\World in Conflict
+ -  36  Zeichen
+752,09
+ MB -
+wic5.sdf
+ -
+G:\Spiele\World in Conflict
+ -  36  Zeichen
+475,8
+ MB -
+wic2.sdf
+ -
+G:\Spiele\World in Conflict
+ -  36  Zeichen
+381,78
+ MB -
+wic65.sdf
+ -
+G:\Spiele\World in Conflict
+ -  37  Zeichen
+271,94
+ MB -
+wicloc63.sdf
+ -
+G:\Spiele\World in Conflict
+ -  40  Zeichen
+229,22
+ MB -
+wicloc11.sdf
+ -
+G:\Spiele\World in Conflict\support\inst\data\EN
+ -  61  Zeichen
+48,52
+ MB -
+wicloc62.sdf
+ -
+G:\Spiele\World in Conflict\support\inst\data\EN
+ -  61  Zeichen
+G:\Spiele\World_of_Tanks_EU
+
+
+60200,12  MB im Profil
+ in  581 Dateien!
+4000
+ MB -
+wotuyyn2q_1.11.1.20955_client.wgpkg.001
+ -
+G:\Spiele\World_of_Tanks_EU\updates\wotuyyn2q_1.11.1.2526_eu
+ -  100  Zeichen
+3377,34
+ MB -
+wotuyyn2q_1.11.1.20955_client.wgpkg.002
+ -
+G:\Spiele\World_of_Tanks_EU\updates\wotuyyn2q_1.11.1.2526_eu
+ -  100  Zeichen
+1404,35
+ MB -
+audioww-part1.pkg
+ -
+G:\Spiele\World_of_Tanks_EU\res\packages
+ -  58  Zeichen
+1383,52
+ MB -
+vehicles_level_08-part2.pkg
+ -
+G:\Spiele\World_of_Tanks_EU\res\packages
+ -  68  Zeichen
+1343,03
+ MB -
+vehicles_level_08_hd-part2.pkg
+ -
+G:\Spiele\World_of_Tanks_EU\res\packages
+ -  71  Zeichen
+1317,06
+ MB -
+vehicles_level_08-part1.pkg
+ -
+G:\Spiele\World_of_Tanks_EU\res\packages
+ -  68  Zeichen
+1289,08
+ MB -
+vehicles_level_08_hd-part1.pkg
+ -
+G:\Spiele\World_of_Tanks_EU\res\packages
+ -  71  Zeichen
+1284,88
+ MB -
+shared_content-part2.pkg
+ -
+G:\Spiele\World_of_Tanks_EU\res\packages
+ -  65  Zeichen
+1253,17
+ MB -
+shared_content-part1.pkg
+ -
+G:\Spiele\World_of_Tanks_EU\res\packages
+ -  65  Zeichen
+1009,73
+ MB -
+shared_content_sandbox-part1.pkg
+ -
+G:\Spiele\World_of_Tanks_EU\res\packages
+ -  73  Zeichen
+G:\Spiele\World_of_Warships_EU
+
+
+66107,44  MB im Profil
+ in  1899 Dateien!
+3814,55
+ MB -
+vehicles_level8_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  68  Zeichen
+3812,88
+ MB -
+basecontent_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  64  Zeichen
+3804,23
+ MB -
+vehicles_level10_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  69  Zeichen
+3436,09
+ MB -
+vehicles_level7_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  68  Zeichen
+3383,96
+ MB -
+vehicles_level10_0002.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  69  Zeichen
+2891,12
+ MB -
+vehicles_level5_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  68  Zeichen
+2373,5
+ MB -
+vehicles_level6_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  68  Zeichen
+2311,5
+ MB -
+vehicles_level8_premium_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  76  Zeichen
+2272,15
+ MB -
+vehicles_level6_premium_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  76  Zeichen
+2142,45
+ MB -
+vehicles_level9_0001.pkg
+ -
+G:\Spiele\World_of_Warships_EU\res_packages
+ -  68  Zeichen
+
+Beende CTN-Treesize Dienstag, 20. April 2021 02:34:32
+**********************
+Ende der Windows PowerShell-Aufzeichnung
+Endzeit: 20210420023432
+**********************
