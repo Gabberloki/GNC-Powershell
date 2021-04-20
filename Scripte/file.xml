@@ -1,0 +1,17 @@
+<Athlete1RMData>
+    <Athlete LastName ="User 1">
+            <BenchPress>Bench 1</BenchPress>
+            <MilitaryPress>M 1</MilitaryPress>
+            <Squat>Squat 1</Squat>
+    </Athlete>
+    <Athlete LastName ="User 2">
+            <BenchPress>Bench 2</BenchPress>
+            <MilitaryPress>M 2</MilitaryPress>
+            <Squat>Squat 2</Squat>
+    </Athlete>
+    <Athlete LastName ="User 3">
+            <BenchPress>Bench 3</BenchPress>
+            <MilitaryPress>M 3</MilitaryPress>
+            <Squat>Squat 4</Squat>
+    </Athlete>
+</Athlete1RMData>
